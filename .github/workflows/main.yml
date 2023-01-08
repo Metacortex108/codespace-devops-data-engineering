@@ -12,6 +12,7 @@ jobs:
     - name: Install dependencies
       run:
         make install
+<<<<<<< HEAD
     - name: lint
        run: |
         make lint
@@ -19,3 +20,5 @@ jobs:
         make test
     - name: format
         make format
+=======
+>>>>>>> cf7bb4c28fc80d3626e5ad45bfaaa3469c5c97b0
