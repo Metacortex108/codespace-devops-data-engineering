@@ -13,8 +13,11 @@ jobs:
       run:
         make install
     - name: Lint with pylint
-         make lint
+      run: |
+        make lint
     - name: Test with pytest
-         make test
+      run: |
+        make test
     - name: Format code
-         make format
+      run: |
+        make format
